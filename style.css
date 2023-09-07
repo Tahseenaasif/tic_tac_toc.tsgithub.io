@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: linear-gradient(to top right, #3333ff 0%, #9933ff 78%);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.formout{
+	background-color: white;
+	padding:20px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 400px;;
+}
+
+.formcont{
+	margin:5px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 600px
+	
+}
+
+.formcont p{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px;
+}
+
+.formcont input{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(219,219,219);
+	outline: none;
+	border:none;
+	border-radius: 10px;
+	padding: 10px 20px;
+	width: 300px;
+	font-size: 20px;
+}
+
+.formout button{
+	background: white;
+	color: grey;
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	box-shadow:0px 0px 10px grey;
+	margin-top: 10px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.formout button:hover{
+	background-color:rgb(0,0,0) ;
+	color: white;
+}
+
+h1{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 80px;
+	color: white;
+	margin-bottom: 20px;
+}
